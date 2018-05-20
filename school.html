@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> <!-- this is showing what characters to render on a page -->
+        <meta name="viewport" content="width=device-width, initial-scale = 1"> <!-- width of rendering = width of device --> 
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="icon" href="pawsitivitylogo.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="school.css">
+        <title> Pawsitivity </title>
+        <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" style="background-color: #FEF1B5 !important;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="brand">
+                <ul class="nav navbar-nav">
+                    <a class="navbar-brand" href="paws.html">
+                    <img alt="Logo Image" src="pawsitivitylogo.png" class="img-circle" width="100px" height="100px">
+                    </a>
+                    <li role="presentation"><a href="paws.html">Pawsitivity</a></li>
+                </ul>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li role="presentation"><a href="account.html">Account <!-- <span class="sr-only"></span> --></a></li>
+                <li role="presentation"><a href="purpose.html">Our Purpose</a></li>
+                <li class="dropdown">
+                    <a href="#getInvolved" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="connectyourdog.html">Sign up your dog</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="school.html">Sign up your school</a></li>
+                    </ul>
+                <li role="presentation"><a href="donations.html">Donations</a></li>
+                <li role="presentation"><a href="contactus.html">Contact Us</a></li>
+                </li>
+            </ul>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <!--End of talya's code-->
+    <div class = "container">
+
+        <div class = "Jumbotron">
+            <h1 style="color: #ff94c9">Bring Dogs to Your School</h1>
+        </div>
+
+        <p style="color: #91A8D0">Must be school apart of the school administration or ASB cabinet to submit school.</p>
+    </div>
+
+   <div class ="movedown">
+    <script>
+        function othername() {
+            var input = document.getElementById("userInput").value;
+            var newString = "";
+
+    for (i = 0; i < input.length; i++) {
+        if(input.charAt(i) == " ") {
+            newString+="%20";
+        }
+        else {
+            newString+=input.charAt(i);
+        }}
+             map.src = "https://www.google.com/maps/embed/v1/search?q=animal%20shelter%20near%20"+ newString +"&key=AIzaSyCWK-wgZANE3kWx9RI3PxgmiPPieNOTIjg";
+}
+        </script>
+        <div class="row">
+        <div class="col-md-6">
+                <h2 style="color: #ff94c9">Find Your School</h2>
+
+            <form id="form" onsubmit="return false;">
+                        <input style="position:relative; top:90%; left:350px; width:65%; margin-bottom: 30px;" type="text" id="userInput" placeholder="Type name of school"/>
+                        <input style="position:relative; top:95%; left:5%; left: 390px; width:15%;margin-bottom: 30px;" type="submit" onclick="othername();" />
+
+
+            </form>
+        </div>
+        </div>
+
+    <div id = "mymap">
+    <iframe width="600" height="450" frameborder="0" id = "map" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=animal%20shelter%20near%20USA&key=AIzaSyCWK-wgZANE3kWx9RI3PxgmiPPieNOTIjg" allowfullscreen></iframe>
+
+
+
+    </div>
+         <div id = "besides">
+            <form action = "signupschool.html">
+             <button class="btn" type="submit">Create an account for your school</button>
+             </form>
+        </div>
+    </div>
+
+<div class ="movedown">
+    <script>
+        function othername() {
+            var input = document.getElementById("userInput").value;
+            var newString = "";
+
+    for (i = 0; i < input.length; i++) {
+        if(input.charAt(i) == " ") {
+            newString+="%20";
+        }
+        else {
+            newString+=input.charAt(i);
+        }}
+             map.src = "https://www.google.com/maps/embed/v1/search?q=animal%20shelter%20near%20"+ newString +"&key=AIzaSyCWK-wgZANE3kWx9RI3PxgmiPPieNOTIjg";
+}
+        </script>
+        <div class="row">
+        <div class="col-md-6">
+                <h2 style="color: #ff94c9">Check If Your School Is Already Registered</h2>
+
+            <form id="form" action="alreadyConnected.html" target="_blank">
+                        <input style="position:relative; top:90%; left:350px; width:65%; margin-bottom: 30px;" type="text" id="userInput" placeholder="Type name of school"/>
+                        <input style="position:relative; top:95%; left:5%; left: 390px; width:15%;margin-bottom: 30px;" type="submit" onclick="othername();" />
+
+
+            </form>
+        </div>
+        </div>
+
+    </body>
+</html>

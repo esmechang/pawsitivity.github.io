@@ -1,0 +1,26 @@
+.list-group {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+    width: 140px;
+    height: 100%;
+    background-color: #FEF1B5;
+    position: fixed;
+    
+    
+}
+
+a.list-group-item{
+    width: 140px;
+    font-family: 'Exo', sans-serif;
+    color: #ff94c9;
+    background-color: #FEF1B5;
+    text-align: center;
+    border: none;
+
+    
+}
+
+body {
+    height: 100%
+    }

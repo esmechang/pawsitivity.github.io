@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html lang = "en">
+    <head>
+        <meta charset="utf-8"> <!-- this is showing what characters to render on a page -->
+        <meta name="viewport" content="width=device-width, initial-scale = 1"> <!-- width of rendering = width of device --> 
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="icon" href="pawsitivitylogo.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="pawsitivityStyle.css">
+        <title> Pawsitivity </title>
+        <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        <!-- Liberries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://oss.maxcdn.com/semantic-ui/2.1.8/semantic.min.css">
+        <script src="http://oss.maxcdn.com/semantic-ui/2.1.8/semantic.min.js"></script>
+
+        <!-- Firebase Garbage -->
+        <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyC3JRxmnLD0MdpfJsMIw8viA9d4PTSZ7mI",
+            authDomain: "melissa-ad482.firebaseapp.com",
+            databaseURL: "https://melissa-ad482.firebaseio.com",
+            storageBucket: "melissa-ad482.appspot.com",
+          };
+          firebase.initializeApp(config);
+        </script>
+
+        <!-- Paws App -->
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="app.css" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+    <nav class="navbar navbar-default" style="background-color: #FEF1B5 !important;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="brand">
+        <ul class="nav navbar-nav">           
+          <a class="navbar-brand" href="paws.html">
+                <img alt="Logo Image" src="pawsitivitylogo.png" class="img-circle" width="100px" height="100px">
+            </a>
+        <li role="presentation"><a href="paws.html">Pawsitivity</a></li>
+        </ul>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+        <li role="presentation"><a href="account.html">Account <!-- <span class="sr-only"></span> --></a></li>
+        <li role="presentation"><a href="purpose.html">Our Purpose</a></li>
+        <li class="dropdown">
+          <a href="#getInvolved" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="connectyourdog.html">Sign up your dog</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#schoolSignup">Sign up your school</a></li>
+          </ul>
+        <li role="presentation"><a href="donations.html">Donations</a></li>
+        <li role="presentation"><a href="contactus.html">Contact Us</a></li>
+        </li>
+      </ul>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<h3 style= "font-family: 'Exo', sans-serif; font-size: 30px">Your account has been registered!</h3>
+
+<center><img src="flower.png"><center>
+<h3> </h3>
+<center><img src="artsydog3.jpg"><center>

@@ -1,0 +1,67 @@
+#dog {
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 50px;
+}
+
+#shiba {
+    float: right;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -290px;
+    -ms-transform: rotate(8deg); /* IE 9 */
+    -webkit-transform: rotate(8deg); /* Safari */
+    transform: rotate(8deg) translateX(-100px);
+}
+
+img {
+    vertical-align: middle;
+    display: block;
+    margin: auto;
+}
+
+
+#text {
+    color: #ff94c9;
+    width: 400px;
+    padding: 10px;
+    margin-top: -300px;
+    margin-left: 550px;
+    font-family: 'Exo', sans-serif;
+}
+
+#blue {
+    color: #91A8D0;
+    font-family: 'Exo', sans-serif;
+}
+
+.jumbotron {
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    background-color: #FEF1B5 !important;
+}
+
+
+#pink {
+    color: #ff94c9;
+    font-family: 'Exo', sans-serif;
+    font-size: 50px;
+}
+
+h3 {
+    color: #91A8D0;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+}
+
+#words {
+    color: #91A8D0;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+}
